@@ -88,7 +88,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <!-- Left side: Login form -->
         <div class="flex flex-col relative justify-center w-full px-8 py-12 lg:px-24">
             <a href="" class="absolute top-0 left-0 flex justify-center items-center gap-2 px-6 py-4">
-                <img src="<?= $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] ?>/MoneyMo/public/assets/logo-circle.png"
+                <img src="assets/logo-circle.png"
                     alt="MoneyMo Logo" class="max-h-16 w-auto">
                 <span class="text-3xl font-bold">MoneyMo</span>
             </a>
@@ -189,9 +189,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <button onclick="closeEmailModal()"
                 class="absolute cursor-pointer top-2 right-2 text-gray-500 hover:text-gray-700">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 
-            1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 
-            1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414
+            1.414L11.414 10l4.293 4.293a1 1 0 01-1.414
+            1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586
             10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
             </button>
